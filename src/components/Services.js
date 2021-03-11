@@ -13,24 +13,9 @@ const Services = () => {
           <h1>My Projects</h1>
         </div>
         <div className="b-container">
-          <Cards
-            stype={Data[0].stype}
-            simage={image1}
-            sdescription={Data[0].sdescription}
-            href={Data[0].href}
-          />
-          <Cards
-            stype={Data[1].stype}
-            simage={image2}
-            sdescription={Data[1].sdescription}
-            href={Data[1].href}
-          />
-          <Cards
-            stype={Data[2].stype}
-            simage={image3}
-            sdescription={Data[2].sdescription}
-            href={Data[2].href}
-          />
+          <Cards stype={Data[0].stype} simage={image1} href={Data[0].href} />
+          <Cards stype={Data[1].stype} simage={image2} href={Data[1].href} />
+          <Cards stype={Data[2].stype} simage={image3} href={Data[2].href} />
         </div>
       </div>
     </div>

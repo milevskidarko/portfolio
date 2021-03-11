@@ -5,11 +5,10 @@ const Cards = (props) => {
     <div className="service-box">
       <div className="service-box-img">
         <div className="service-type">
-        <a href={props.href}>{props.stype}</a>
+          <a href={props.href}>{props.stype}</a>
         </div>
         <img src={props.simage} alt="img" />
       </div>
-      <div className="service-box-test"></div>
     </div>
   );
 };
